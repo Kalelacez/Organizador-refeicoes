@@ -4,8 +4,11 @@ let calorias = document.getElementById("calorias");
 let quantCal = 0;
 
 function adicionarRef(){
-    let opcaoEscolhida = document.getElementById("opcao");
     let quantidade = document.getElementById("quantidade").value;
+    if(quantidade <= 0){
+        alert("ERRO - quantidade invalida")
+    } else {
+    let opcaoEscolhida = document.getElementById("opcao");
     let selectedOption = opcaoEscolhida.options[opcaoEscolhida.selectedIndex];
     let label = selectedOption.text; 
     let calculoCals = quantidade * opcaoEscolhida.value;
@@ -13,4 +16,4 @@ function adicionarRef(){
     calorias.textContent = `calorias: ${parseInt(quantCal)}`;
     refeicao.textContent = refeicao.textContent + " " + label;
 }
-
+}
