@@ -6,8 +6,8 @@ Dados de calorias obtidos do site https://www.fatsecret.com.br/calorias-nutri%C3
 
 ## 🚀 Tecnologias usadas
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript (puro)
 
 ## 📂 Estrutura
