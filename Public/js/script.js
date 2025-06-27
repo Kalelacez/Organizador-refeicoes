@@ -26,3 +26,9 @@ function adicionarRef(){
 }
 }
 
+function reiniciar(){
+    document.getElementById("refeicao").textContent = " "
+    document.getElementById("calorias").textContent = " "
+    lista = []
+}
+
